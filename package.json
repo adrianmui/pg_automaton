@@ -6,5 +6,9 @@
   "license": "MIT",
   "dependencies": {
     "jest": "^22.4.3"
+  },
+  "scripts": {
+    "first": "jest part_one",
+    "second": "jest part_two"
   }
 }
