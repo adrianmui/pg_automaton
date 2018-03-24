@@ -2,10 +2,10 @@
 
 You realize that PG employees left a `MANUAL.txt` on an outside folder documenting intended behavior... :>
 
-* If automaton accepts "string" it will tell you the amount of vowels that string contains. Example:
+* If automaton receives a string it will tell you the amount of each vowel that is present in the string. Examples:
 
 ```javascript
-automaton("String") // 1
+automaton("String Example") // {"i": 1, "e": 2, "a": 1}
 ```
 
 * If automaton accepts "number" it will tell you if this is a prime number. Example:

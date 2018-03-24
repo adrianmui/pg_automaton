@@ -1,16 +1,16 @@
 const automaton = require('../automaton');
 
 describe('String Test', () => {
-  it('Should return amount of vowels', () => {
-    expect(automaton('Some RandOm String')).toEqual(5);
+  it('Should return correct object', () => {
+    expect(automaton('Some RandOm String')).toMatchObject({"o": 2, "e": 1, "a": 1, "i": 1});
   })
 
-  it('Should return amount of vowels', () => {
-    expect(automaton('Sm Rndm Strng')).toEqual(0);
+  it('Should return correct object', () => {
+    expect(automaton('Sm Rndm Strng')).toEqual({});
   })
 
-  it('Should return amount of vowels', () => {
-    expect(automaton('')).toEqual(0);
+  it('Should return correct object', () => {
+    expect(automaton('')).toEqual({});
   })
 });
 
