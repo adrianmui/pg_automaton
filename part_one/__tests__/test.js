@@ -1,4 +1,4 @@
-const automaton = require('./automaton');
+const automaton = require('../automaton');
 
 describe('String Test', () => {
   it('Should return 8', () => {
